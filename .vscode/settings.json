@@ -1,4 +1,7 @@
 {
-    "python.linting.flake8Enabled": true,
-    "python.linting.enabled": true
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "ruff.lint.ignore": ["ALL"],
+    "ruff.lint.select": ["E501", "W505"],
+    "ruff.lineLength": 79,
 }
